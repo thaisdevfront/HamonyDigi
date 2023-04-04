@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+header{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img {
+    width: 100px;
+}
+
+header .menu img {
+    height: 13px;
+}
+
+.xs-hidden {
+    display: none;
+}
+
+#full-banner {
+    background-image: url(../img/designer.png);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#full-banner .title {
+    color: #fff;
+    margin: 75% auto 0px;
+    padding: 0px 20px;
+}
+#full-banner h1 {
+    width: 40px;
+    font-size: 36px;
+}
+#full-banner p {
+    width: 260px;
+    font-size: 16px;
+    margin: 35% 0px 30px;
+}
+#full-banner svg{
+    color: #fff;
+    font-size: 13px;
+}
+#full-banner a {
+    background-color: #4D279F;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+#full-banner .Donw {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 5px;
+}
