@@ -6,8 +6,8 @@ fullbanner.innerHTML = `
     <p>Experiência, Design, integração e Social Midia Digital.</p>
 </div>
 <div class="Donw">
-    <a hrf="#">
-        <i class="fa-solid fa-chevron-down"></i>
+    <a href="https://api.whatsapp.com/send?phone=5512981021517&text=%">
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
 </div>
 
